@@ -1,0 +1,46 @@
+Anime Recommendation System (ARS) v0.2
+
+**************************************************************************
+SUMMARY
+**************************************************************************
+Anime has become a very trending topic these days with so many people watching it and others
+catching up to it. It has garnered a lot of attention but sometimes people get lost in the sea of anime
+available and often watch something that doesn’t interest them. Our system aims to solve this issue by
+catering to both viewers who are just exploring anime and to patrons who have acquired a taste for it.
+For new users, the system predicts the shows they can watch based on the genres they prefer, the
+number of episodes etc. For seasoned viewers, the system takes their top anime shows as input and
+based on their genre and rating, suggests a new list of shows that they will enjoy. This provides the
+viewers a user-friendly mechanism to filter and find shows which will suit their interests
+
+**************************************************************************
+CHANGES
+**************************************************************************
+version 0.1
+- proof of architecture
+
+version 0.2
+- Alpha Release
+	Completed the happy flow of primary use case
+ 	Basic implementation of anime recommendations providing 3 recommendations for 3 genres that you type in
+ 	
+version 0.3
+ - Beta Release
+ 	Completed the second use case
+ 	Alternate implementation of recommending animes for a veteran anime fan is implemented
+
+version 0.4
+ - Release candidate 1
+ 	Cleanup and refactoring of code.
+ 	Removal of dead code and comments
+
+version 0.5
+ - Final Release
+	Refined the dataset for better recommendation
+	Restructured code for better readability
+
+
+**************************************************************************
+SETUP
+**************************************************************************
+1. Please replace the existing path of mongoimport.exe with your corresponding path - Line 17 of MongoLoader.java
+2. While giving input please take care of the genre input as it is case sensitive
